@@ -4,7 +4,7 @@ import { Canvas, Circle, Rect } from '@shopify/react-native-skia';
 import { useSharedValue, withRepeat, withTiming } from 'react-native-reanimated';
 import { StatusBar } from 'expo-status-bar';
 
-// Minimal native-Skia 2D test: bouncing ball + tap-to-move player.
+// Minimal / native-Skia 2D test: bouncing ball + tap-to-move player.
 // No WebView, no DOM — draws straight to GPU via Skia (C++ native).
 // Skia 2.x: Reanimated shared values are passed straight to Canvas props.
 export default function App() {
